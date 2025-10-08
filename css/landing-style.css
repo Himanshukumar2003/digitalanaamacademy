@@ -1,0 +1,25 @@
+@media screen and (max-width: 991px){
+	.nav__container{
+		margin:0 20px;
+	}
+	.sub_footer {
+	    margin-bottom: 53px;
+	}
+	header{
+		border-radius: 60px;
+		background: var(--theme-second-color);
+		overflow:hidden;
+	}
+	header.fixed{
+		border-radius: 0;
+	}
+	.main-header{
+		border-radius: 0 !important;
+	}
+	.nav__container{
+		border-radius:0px !important;
+	}
+}
+.nav__container{
+	border-radius:60px 0 0 60px !important;
+}
